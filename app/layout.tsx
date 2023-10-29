@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Inter, Parisienne } from "next/font/google";
+import "@/app/assets/styles/globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const logo_font = Parisienne({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Lar Canino - encontre seu próximo amigocão",

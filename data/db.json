@@ -1,0 +1,256 @@
+{
+    "dogs": [
+        {
+            "id": 1,
+            "name": "Atlas",
+            "breed": "Sem raça definida",
+            "image": "https://images.unsplash.com/photo-1600041773736-fe24074b40ea?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Atlas - 5 anos - Sem raça definida - Pelagem caramelo",
+            "gender": "Macho",
+            "age": 5,
+            "behavior": [
+                "Esperto",
+                "Protetor",
+                "Carinhoso"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Atlas é um cãozinho sem raça definida, mas com muita personalidade. Ele tem 5 anos e é muito esperto, protetor e carinhoso com seus donos. Ele adora brincar e receber carinho."
+        },
+        {
+            "id": 2,
+            "name": "Barkus",
+            "breed": "Border Collie",
+            "image": "https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?auto=format&fit=crop&q=80&w=1972&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Barkus - 4 anos - Border Collie - Pelagem preta e branca",
+            "gender": "Fêmea",
+            "age": 4,
+            "behavior": [
+                "Brincalhona",
+                "Ativa",
+                "Gosta de pular"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Barkus é uma Border Collie de 4 anos que ama se divertir. Ela é brincalhona, ativa e gosta de pular em tudo que vê. Ela é uma ótima companheira para quem gosta de aventura e exercício."
+        },
+        {
+            "id": 3,
+            "name": "Bixby",
+            "breed": "Labrador",
+            "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Bixby - 4 anos - Labrador - Pelagem castanha",
+            "gender": "Fêmea",
+            "age": 4,
+            "behavior": [
+                "Gosta de lamber",
+                "Brincalhona",
+                "Ativa"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Bixby é uma Labrador de 4 anos que não consegue parar de lamber. Ela é brincalhona, ativa e muito amigável. Ela gosta de fazer novos amigos e de receber atenção."
+        },
+        {
+            "id": 4,
+            "name": "Cinder",
+            "breed": "Golden Retriever",
+            "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Cinder - 1 ano - Golden Retriever - Pelagem caramelo",
+            "gender": "Macho",
+            "age": 1,
+            "behavior": [
+                "Observador",
+                "Mastigador nato",
+                "Manhoso"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Cinder é um Golden Retriever de 1 ano que gosta de observar tudo ao seu redor. Ele é um mastigador nato e adora roer seus brinquedos. Ele também é muito manhoso e sabe como conquistar seus donos."
+        },
+        {
+            "id": 5,
+            "name": "Kaboom",
+            "breed": "Sem raça definida",
+            "image": "https://images.unsplash.com/photo-1587203925441-e01e394ca459?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Kaboom - 6 anos - Sem raça definida - Pelagem preta e branca",
+            "gender": "Macho",
+            "age": 6,
+            "behavior": [
+                "Esperto",
+                "Gosta de lamber",
+                "Ativo"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Kaboom é um cãozinho sem raça definida de 6 anos que tem muita energia. Ele é esperto, gosta de lamber e é muito ativo. Ele precisa de bastante espaço e estímulo para gastar sua vitalidade."
+        },
+        {
+            "id": 6,
+            "name": "Bertha",
+            "breed": "Poodle",
+            "image": "https://images.unsplash.com/photo-1516371535707-512a1e83bb9a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Bertha - 3 anos - Poodle - Pelagem caramelo",
+            "gender": "Fêmea",
+            "age": 3,
+            "behavior": [
+                "Gosta de lamber",
+                "Brincalhona",
+                "Carinhosa"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Bertha é uma Poodle de 3 anos que adora lamber seus donos. Ela é brincalhona, carinhosa e muito fofa. Ela gosta de se enfeitar e de chamar a atenção."
+        },
+        {
+            "id": 7,
+            "name": "Boombox",
+            "breed": "Sem raça definida",
+            "image": "https://images.pexels.com/photos/6291580/pexels-photo-6291580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imageDescription": "Boombox - 6 anos - Sem raça definida - Pelagem caramelo",
+            "gender": "Macho",
+            "age": 6,
+            "behavior": [
+                "Carinhoso",
+                "Protetor",
+                "Observador"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Boombox é um cãozinho sem raça definida de 6 anos que é muito carinhoso, protetor e observador. Ele gosta de ficar perto de seus donos e de cuidar deles. Ele também é muito curioso e atento ao que acontece ao seu redor."
+        },
+        {
+            "id": 8,
+            "name": "Arnie",
+            "breed": "Sem raça definida",
+            "image": "https://images.pexels.com/photos/15175665/pexels-photo-15175665/free-photo-of-retrato-de-um-jovem-cao-de-gado-preto.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imageDescription": "Arnie - 2 anos - Sem raça definida - Pelagem preta e detalhes brancos",
+            "gender": "Fêmea",
+            "age": 2,
+            "behavior": [
+                "Gosta de pular",
+                "Observadora",
+                "Protetora"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Arnie é uma cadelinha sem raça definida de 2 anos que gosta de pular em tudo que vê. Ela é observadora, protetora e muito alegre. Ela gosta de explorar novos lugares e de proteger seus donos."
+        },
+        {
+            "id": 9,
+            "name": "Mixie",
+            "breed": "Sem raça definida",
+            "image": "https://images.unsplash.com/photo-1617149204341-4db5f79f1873?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Mixie - 4 anos - Sem raça definida - Pelagem castanha com detalhes pretos e brancos",
+            "gender": "Macho",
+            "age": 4,
+            "behavior": [
+                "Gosta de lamber",
+                "Protetora",
+                "Carinhosa"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Mixie é um cãozinho sem raça definida de 4 anos que gosta de lamber seus donos. Ele é protetor, carinhoso e muito dócil. Ele gosta de ficar no colo e de receber carinho."
+        },
+        {
+            "id": 10,
+            "name": "Nina",
+            "breed": "Sem raça definida",
+            "image": "https://images.unsplash.com/photo-1694185643879-536f8d785fa6?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Nina - 5 anos - Sem raça definida - Pelagem caramelo",
+            "gender": "Fêmea",
+            "age": 5,
+            "behavior": [
+                "Brincalhona",
+                "Gosta de pular",
+                "Carinhosa"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Nina é uma cadelinha sem raça definida de 5 anos que é muito brincalhona, gosta de pular e carinhosa. Ela adora se divertir com seus donos e com outros cachorros. Ela é muito sociável e simpática."
+        },
+        {
+            "id": 11,
+            "name": "Simba",
+            "breed": "Sem raça definida",
+            "image": "https://images.unsplash.com/photo-1576684551765-b1c9b13b0733?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Simba - 3 anos - Sem raça definida - Pelagem bege",
+            "gender": "Macho",
+            "age": 3,
+            "behavior": [
+                "Observador",
+                "Brincalhão",
+                "Protetor"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Simba é um cãozinho sem raça definida de 3 anos que é muito observador, brincalhão e protetor. Ele gosta de acompanhar seus donos em suas atividades e de brincar com eles. Ele também é muito fiel e corajoso."
+        },
+        {
+            "id": 12,
+            "name": "Teeny",
+            "breed": "Corgi",
+            "image": "https://images.unsplash.com/photo-1601318126401-6fb4ea905ea1?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageDescription": "Teeny - 4 anos - Corgi - Pelagem caramelo",
+            "gender": "Fêmea",
+            "age": 4,
+            "behavior": [
+                "Gosta de lamber",
+                "Ativa",
+                "Protetora"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Teeny é uma Corgi de 4 anos que gosta de lamber seus donos. Ela é ativa, protetora e muito inteligente. Ela aprende rápido e sabe como se comunicar com seus donos."
+        },
+        {
+            "id": 13,
+            "name": "Waffle",
+            "breed": "Sem raça definida",
+            "image": "https://images.pexels.com/photos/2039823/pexels-photo-2039823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imageDescription": "Waffle - 6 anos - Sem raça definida - Pelagem caramelo",
+            "gender": "Macho",
+            "age": 6,
+            "behavior": [
+                "Observador",
+                "Protetor",
+                "Carinhoso"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Waffle é um cãozinho sem raça definida de 6 anos que é muito observador, protetor e carinhoso. Ele gosta de ficar ao lado de seus donos e de demonstrar seu afeto por eles. Ele também é muito tranquilo e obediente."
+        },
+        {
+            "id": 14,
+            "name": "Cosmo",
+            "breed": "Schnauzer",
+            "image": "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imageDescription": "Cosmo - 7 anos - Schnauzer",
+            "gender": "Macho",
+            "age": 7,
+            "behavior": [
+                "Brincalhão",
+                "Carinhoso",
+                "Protetor"
+            ],
+            "innoculations": "Nenhuma",
+            "diseases": "Nenhuma",
+            "parasites": "Nenhum",
+            "description": "Cosmo é um Schnauzer de 7 anos que é muito brincalhão, carinhoso e protetor. Ele adora se divertir com seus donos e com outros cachorros. Ele também é muito peludo e charmoso."
+        }
+    ]
+}

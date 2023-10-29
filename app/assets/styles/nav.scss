@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  gap: 8px;
+
+  .menu-options {
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    gap: 32px;
+
+    .menu-options {
+      font-size: 1rem;
+      position: relative;
+
+      .menu-link {
+        &::after {
+          background: $brown4;
+          bottom: -5px;
+          content: "";
+          height: 2px;
+          left: 0;
+          position: absolute;
+          transform: scaleX(0);
+          transform-origin: right;
+          transition: transform 200ms ease-in;
+          width: 100%;
+        }
+
+        &:hover {
+          &::after {
+            transform: scaleX(1);
+            transform-origin: left;
+          }
+        }
+      }
+    }
+  }
+}

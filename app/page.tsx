@@ -1,7 +1,7 @@
-import { Header } from "./components/Header";
+import { Home } from "./components/Home";
 
-export default function Home() {
-  return (<>
-  <Header />
-  <h1>Olá mundo</h1></>);
+export default function App() {
+  return (
+    <Home />
+  );
 }

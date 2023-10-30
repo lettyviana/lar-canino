@@ -7,7 +7,6 @@ export const Header = () => {
   const mainTextColor = "#fdfdfd";
   return (
     <header className="header">
-      <div className="background-image" />
       <div className="content-div">
         <Logo titleColor={mainTitleColor} textColor={mainTextColor} />
         <Nav textColor={mainTextColor} />

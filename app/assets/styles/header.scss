@@ -1,22 +1,7 @@
 @import "./variables.scss";
 
 .header {
-  background: $gradient;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  position: relative;
-
-  .background-image {
-    background-image: url("../images/banner.svg");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    position: absolute;
-    opacity: .4;
-    width: 100vw;
-  }
+  z-index: 1;
 
   .content-div {
     align-items: center;
@@ -26,19 +11,9 @@
     height: fit-content;
     margin: 20px 0;
     width: 100%;
-    z-index: 1;
   }
 
   @media screen and (min-device-width: $desktopBreakpoint) {
-    .background-image {
-        background-position: right;
-        background-size: contain;
-        height: 100%;
-        opacity: 1;
-        right: 0;
-        top: 0;
-    }
-    
     .content-div {
         flex-direction: row;
         justify-content: space-between;

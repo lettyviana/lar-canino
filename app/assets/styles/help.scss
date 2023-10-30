@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+.help-container {
+  background-color: $white3;
+  padding: 50px 0 100px;
+  width: 100%;
+
+  .content-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+    .icons-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      max-width: 1120px;
+    }
+  }
+}

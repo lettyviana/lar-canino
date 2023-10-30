@@ -1,0 +1,44 @@
+@import "./variables.scss";
+
+.icon-container {
+  align-items: center;
+  background-color: $white2;
+  border-radius: 10px;
+  box-shadow: $cardBoxShadow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 160px;
+  justify-content: center;
+  width: 130px;
+
+  .icon-image-container {
+    align-items: center;
+    background-color: $brown5;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+  }
+
+  .icon-description {
+    color: $gray;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    gap: 20px;
+    height: 200px;
+    width: 180px;
+
+    .icon-image-container {
+      height: 120px;
+      width: 140px;
+    }
+
+    .icon-description {
+      font-size: 1.2rem;
+    }
+  }
+}

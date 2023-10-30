@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Help } from "./components/Help";
 import { Home } from "./components/Home";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <>
     <Home />
     <About />
+    <Help />
     </>
   );
 }

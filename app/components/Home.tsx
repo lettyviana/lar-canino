@@ -1,4 +1,5 @@
 import { Header } from "./Header";
+import { StandardButton } from "./StandardButton";
 
 export const Home = () => {
   return (
@@ -14,6 +15,7 @@ export const Home = () => {
             descubra como você pode fazer parte de histórias de amor
             incondicional.
           </p>
+          <StandardButton whichType="button">Agende uma visita</StandardButton>
         </div>
       </section>
     </>

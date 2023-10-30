@@ -1,5 +1,5 @@
-import { Icon } from "../Icon";
-import { SectionTitle } from "../SectionTitle";
+import { Icon } from "./Icon";
+import { SectionTitle } from "./SectionTitle";
 import petFood from "@/app/assets/images/icons/pet-food.svg";
 import transport from "@/app/assets/images/icons/transport.svg";
 import toys from "@/app/assets/images/icons/toys.svg";

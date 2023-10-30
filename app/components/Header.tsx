@@ -1,6 +1,6 @@
 import "@/app/assets/styles/variables.scss";
-import { Logo } from "../Logo";
-import { Nav } from "../Nav";
+import { Logo } from "./Logo";
+import { Nav } from "./Nav";
 
 export const Header = () => {
   const mainTitleColor = "#ebc7ae";

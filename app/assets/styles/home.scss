@@ -20,10 +20,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
+    height: 100%;
+    justify-content: center;
     max-width: 100%;
+    padding: 0 20px;
+    z-index: 1;
+    
     .home-title {
       color: $white3;
     }
@@ -45,19 +47,19 @@
     }
 
     .home-content-container {
-      left: 320px;
-      padding: 0;
+      margin: 0 auto;
       max-width: 1280px;
-      top: 40%;
-      width: 38%;
+      width: 100%;
     }
 
     .home-title {
-      font-size: 4rem;
+      font-size: 3.5rem;
+      width: 55%;
     }
 
     .home-text {
       font-size: 1.5rem;
+      width: 55%;
     }
   }
 }

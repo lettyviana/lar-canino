@@ -3,7 +3,7 @@ import { Header } from "../Header";
 export const Home = () => {
   return (
     <>
-      <div className="home-container">
+      <section className="home-container">
         <Header />
         <div className="background-image" />
         <div className="home-content-container">
@@ -15,7 +15,7 @@ export const Home = () => {
             incondicional.
           </p>
         </div>
-      </div>
+      </section>
     </>
   );
 };

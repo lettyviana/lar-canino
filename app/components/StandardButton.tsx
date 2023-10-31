@@ -1,5 +1,3 @@
-import styles from "./standard-button.module.scss";
-
 type StandardButtonProps = {
   children: string;
   styleType?: any;
@@ -13,7 +11,7 @@ export const StandardButton = ({
 }: StandardButtonProps) => {
   return (
     <button
-      className={`${styles["standard-button"]} ${styles[styleType]}`}
+      className={`${"standard-button"} ${[styleType]}`}
       type={whichType}
     >
       {children}

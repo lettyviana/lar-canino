@@ -1,0 +1,76 @@
+.carousel-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 300px;
+  position: relative;
+
+  .arrow {
+    align-items: center;
+    background-color: $brown2;
+    border: 2px solid $brown2;
+    border-radius: 30%;
+    color: $brown5;
+    cursor: pointer;
+    display: flex;
+    font-size: 2.2rem;
+    height: 30px;
+    justify-content: center;
+    position: absolute;
+    transition: all 0.3s;
+    width: 30px;
+
+    &.left {
+      left: 0;
+    }
+
+    &.right {
+      right: 0;
+    }
+
+    &.disabled,
+    &.disabled:hover {
+      background-color: transparent;
+      border: 2px solid $brown5;
+      color: $brown5;
+      opacity: 0.7;
+    }
+  }
+
+  .dog-card-carousel {
+    display: flex;
+    gap: 65px;
+    margin: 0 20px;
+    padding: 25px 15px;
+    overflow: hidden;
+    width: 285px;
+  }
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1280px;
+    position: relative;
+
+    .arrow {
+      height: 65px;
+      width: 65px;
+
+      &:hover {
+        background-color: $brown5;
+        border: 2px solid $brown5;
+        color: $gray;
+      }
+    }
+
+    .dog-card-carousel {
+      margin: 0 86px;
+      width: 930px;
+    }
+  }
+}

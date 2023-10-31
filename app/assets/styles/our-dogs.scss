@@ -1,0 +1,12 @@
+.our-dogs-content-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 30px 10px;
+  width: 100%;
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    padding: 50px 0;
+  }
+}

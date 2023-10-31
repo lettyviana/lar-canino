@@ -1,5 +1,3 @@
-@import "@/app/assets/styles/variables.scss";
-
 .standard-button {
   background-color: $brown6;
   border: 2px solid $brown5;
@@ -15,6 +13,15 @@
   &:hover {
     background-color: transparent;
     color: $brown5;
+  }
+
+  &.unhovered {
+    background-color: transparent;
+
+    &:hover {
+      background-color: $brown6;
+      color: $gray;
+    }
   }
 
   @media screen and (min-device-width: $desktopBreakpoint) {

@@ -36,10 +36,15 @@ li {
   }
 }
 
+@import "./section-title.scss";
 @import "./header.scss";
 @import "./logo.scss";
 @import "./nav.scss";
 @import "./home.scss";
+@import "./standard-button.scss";
 @import "./about.scss";
+@import "./our-dogs.scss";
+@import "./dog-carousel.scss";
+@import "./dog-card.scss";
 @import "./icon.scss";
 @import "./help.scss";

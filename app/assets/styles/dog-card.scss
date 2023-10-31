@@ -39,6 +39,13 @@
   }
 
   @media screen and (min-device-width: $desktopBreakpoint) {
+    transition: scale 0.35s;
+
+    &:hover {
+      position: relative;
+      scale: 1.05;
+    }
+
     .card-dog-info {
       gap: 10px;
 
@@ -49,6 +56,90 @@
       .card-dog-breed {
         font-size: 1.2rem;
       }
+    }
+  }
+}
+
+//Dog Modal CSS
+.modal-image-container {
+  height: 250px;
+  width: 250px;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    height: 380px;
+    width: 350px;
+  }
+}
+
+.modal-dog-info {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+
+  .modal-dog-name {
+    color: $brown2;
+    font-size: 1.5rem;
+  }
+
+  .modal-dog-breed {
+    color: $gray;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .modal-dog-description {
+    color: $gray;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .modal-other-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+
+    .modal-list-item {
+      list-style: circle;
+      margin-left: 30px;
+
+      p {
+        color: $gray;
+
+        strong {
+          color: $brown2;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    flex: 2;
+    height: 380px;
+    justify-content: center;
+    padding-right: 20px;
+
+    .modal-dog-name {
+      font-size: 2rem;
+    }
+
+    .modal-dog-breed {
+      font-size: 1rem;
+    }
+
+    .modal-dog-description {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .modal-other-info {
+      font-size: 1rem;
     }
   }
 }

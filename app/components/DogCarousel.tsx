@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import dogData from "@/data/db.json";
 import { DogCard } from "./DogCard";
+import dogData from "@/data/db.json";
 
 export const DogCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

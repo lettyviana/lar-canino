@@ -2,10 +2,13 @@ import { Header } from "./Header";
 import { StandardButton } from "./StandardButton";
 
 export const Home = () => {
+  const mainTitleColor = "#ebc7ae";
+  const mainTextColor = "#fdfdfd";
+  
   return (
     <>
       <section className="home-container">
-        <Header />
+        <Header mainTitleColor={mainTitleColor} mainTextColor={mainTextColor} />
         <div className="background-image" />
         <div className="home-content-container">
           <h2 className="home-title">Seu próximo amigocão está aqui</h2>

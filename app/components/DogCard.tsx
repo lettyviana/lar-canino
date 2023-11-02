@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { StandardButton } from "./StandardButton";
 import { Modal } from "./Modal";

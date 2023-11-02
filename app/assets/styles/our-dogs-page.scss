@@ -1,0 +1,18 @@
+.our-dogs-container {
+  align-items: center;
+  background-color: $white2;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  width: 100%;
+
+  .our-dogs-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    height: auto;
+    justify-content: center;
+    max-width: 1280px;
+    padding: 50px 0;
+  }
+}

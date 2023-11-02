@@ -1,0 +1,55 @@
+.attributions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+
+  .attributions-title {
+    color: $brown2;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .attributions-subtitle {
+    color: $brown4;
+    font-size: 0.8rem;
+  }
+
+  .text {
+    color: $brown3;
+    font-size: 0.75rem;
+  }
+
+  .attributions-links {
+    color: $brown3;
+    font-size: 0.75rem;
+    transition: color .35s;
+
+    &:hover {
+      color: $brown6;
+    }
+  }
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    .attributions-title {
+      font-size: 1.8rem;
+    }
+
+    .attributions-subtitle {
+      font-size: 1.4rem;
+    }
+
+    .text {
+      font-size: 1.2rem;
+    }
+
+    .attributions-links {
+      font-size: 1.2rem;
+    }
+  }
+}

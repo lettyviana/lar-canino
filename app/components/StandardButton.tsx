@@ -2,7 +2,7 @@ type StandardButtonProps = {
   children: string;
   styleType?: any;
   whichType: "button" | "submit" | "reset" | undefined;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 export const StandardButton = ({

@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Parisienne } from "next/font/google";
-import "@/app/assets/styles/globals.scss";
+import { Inter } from "next/font/google";
 import { Contact } from "./components/Contact";
+import "@/app/assets/styles/globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const logo_font = Parisienne({
-  weight: "400",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Lar Canino - encontre seu próximo amigocão",
@@ -22,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-br">
-      <body className={inter.className}>
+    <html lang="pt-br" className={inter.className}>
+      <body>
         {children}
         <Contact />
       </body>

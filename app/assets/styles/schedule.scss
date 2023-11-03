@@ -1,0 +1,112 @@
+.form-container {
+  align-items: center;
+  background: $gradient;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 15px;
+  width: 100%;
+
+  .logo-container {
+    align-items: center;
+  }
+
+  .form-title {
+    color: $white2;
+    font-size: 0.85rem;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .success {
+    color: $green;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .form {
+    background-color: $white2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    width: 95%;
+
+    .input-container {
+      border: none;
+      display: flex;
+      flex-direction: column;
+      outline: none;
+
+      .label {
+        color: $brown3;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .input,
+      .textarea {
+        background-color: $white2;
+        border: none;
+        border-bottom: 2px solid $brown3;
+        border-end-end-radius: 5px;
+        border-end-start-radius: 5px;
+        font-family: inherit;
+        font-size: 0.95rem;
+        outline: none;
+        padding: 5px 0;
+        resize: none;
+        transition: border-bottom 0.35s;
+      }
+
+      .input:focus,
+      .textarea:focus {
+        border-bottom: 2px solid $brown5;
+      }
+
+      .error {
+        color: $red;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+  }
+
+  @media screen and (min-device-width: $desktopBreakpoint) {
+    height: 100%;
+
+    .form-title {
+      font-size: 1.4rem;
+      margin: 20px 0;
+    }
+
+    .success {
+      font-size: 1.2rem;
+    }
+
+    .form {
+      width: 60%;
+
+      .input-container {
+        .label {
+          font-size: 1.1rem;
+        }
+
+        .input,
+        .textarea {
+          font-size: 1.2rem;
+        }
+
+        .error {
+            font-size: 1.1rem;
+          }
+    
+      }
+    }
+  }
+}

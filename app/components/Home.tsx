@@ -1,10 +1,13 @@
+"use client";
+import { useRouter } from "next/navigation";
 import { Header } from "./Header";
 import { StandardButton } from "./StandardButton";
 
 export const Home = () => {
   const mainTitleColor = "#ebc7ae";
   const mainTextColor = "#fdfdfd";
-  
+  const router = useRouter();
+
   return (
     <>
       <section className="home-container">
@@ -18,7 +21,12 @@ export const Home = () => {
             descubra como você pode fazer parte de histórias de amor
             incondicional.
           </p>
-          {/* <StandardButton whichType="button">Agende uma visita</StandardButton> */}
+          <StandardButton
+            whichType="button"
+            onClick={() => router.push("/agende-uma-visita")}
+          >
+            Agende uma visita
+          </StandardButton>
         </div>
       </section>
     </>

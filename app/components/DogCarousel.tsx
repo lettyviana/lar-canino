@@ -1,14 +1,34 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { DogCard } from "./DogCard";
-import dogData from "@/data/db.json";
+import Skeleton from "./Skeleton";
+import { DogServices } from "../services/DogServices";
+
+const dogServices = new DogServices();
 
 export const DogCarousel = () => {
+  const [dogs, setDogs] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLeftArrowDisabled, setLeftArrowDisabled] = useState(true);
   const [isRightArrowDisabled, setRightArrowDisabled] = useState(false);
-  const firstDogs = dogData.dogs.slice(currentIndex, currentIndex + 4);
+
+  const getDogs = async () => {
+    try {
+      const result = await dogServices.getDogs();
+      if (result) {
+        setDogs(result);
+      }
+    } catch (error) {
+      console.log("Erro ao listar os cães:", error);
+    }
+  };
+
+  useEffect(() => {
+    getDogs();
+  }, []);
+
+  const firstDogs = dogs?.slice(currentIndex, currentIndex + 4);
 
   const handleLeftArrowClick = () => {
     if (currentIndex > 0) {
@@ -41,9 +61,13 @@ export const DogCarousel = () => {
         <AiOutlineArrowLeft />
       </button>
       <div className="dog-card-carousel">
-        {firstDogs.map((firstDog: any, index: number) => (
-          <DogCard key={index} dog={firstDog} />
-        ))}
+        {dogs.length > 0 ? (
+          firstDogs.map((firstDog: any, index: number) => (
+            <DogCard key={index} dog={firstDog} />
+          ))
+        ) : (
+          <Skeleton cards={4} />
+        )}
       </div>
       <button
         className={`${"arrow"} ${"right"} ${

@@ -45,6 +45,7 @@ As devidas atribuições se encontram no link Atribuições ao final da página.
 <div style="display: inline_block" align="center"><br />
     <img src="https://img.shields.io/badge/Next-8A2BE2?style=for-the-badge&logo=nextdotjs&logoColor=white" height="35px" alt="Next.Js" align="center" />
     <img src="https://img.shields.io/badge/React-A416E6?style=for-the-badge&logo=react&logoColor=white" height="35px" alt="React.Js" align="center" />
+    <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="35px" alt="Typescript" align="center" />
     <img src="https://img.shields.io/badge/Node-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" height="35px" alt="Node.Js" align="center" />
     <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge" height="35px" alt="Sass" align="center" />
 </div><br />

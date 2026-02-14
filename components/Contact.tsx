@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import email from "@/app/assets/images/icons/email.svg";
-import phone from "@/app/assets/images/icons/phone.svg";
-import storeAddress from "@/app/assets/images/icons/store-location.svg";
-import shelterAddress from "@/app/assets/images/icons/shelter-location.svg";
+import email from "@/assets/images/icons/email.svg";
+import phone from "@/assets/images/icons/phone.svg";
+import storeAddress from "@/assets/images/icons/store-location.svg";
+import shelterAddress from "@/assets/images/icons/shelter-location.svg";
 import Link from "next/link";
 import { AttributionsModal } from "./AttributionsModalContent/AttributionsModal";
 import { Modal } from "./Modal";

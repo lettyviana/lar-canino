@@ -1,7 +1,7 @@
 "use client";
-import { Logo } from "../components/Logo";
+import { Logo } from "@/components/Logo";
+import { StandardButton } from "@/components/StandardButton";
 import { useForm } from "react-hook-form";
-import { StandardButton } from "../components/StandardButton";
 
 type FormData = {
   firstName: string;

@@ -1,6 +1,6 @@
-import "@/app/assets/styles/variables.scss";
 import { Logo } from "./Logo";
 import { Nav } from "./Nav";
+import "@/assets/styles/variables.scss";
 
 type HeaderProps = {
   mainTitleColor: string;

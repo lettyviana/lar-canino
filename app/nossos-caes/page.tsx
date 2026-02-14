@@ -1,10 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Header } from "../components/Header";
-import { SectionTitle } from "../components/SectionTitle";
-import { DogCard } from "../components/DogCard";
-import { DogServices } from "../services/DogServices";
-import Skeleton from "../components/Skeleton";
+import { DogCard } from "@/components/DogCard";
+import { Header } from "@/components/Header";
+import { SectionTitle } from "@/components/SectionTitle";
+import Skeleton from "@/components/Skeleton";
+import { DogServices } from "@/services/DogServices";
 
 const dogServices = new DogServices();
 

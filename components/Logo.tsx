@@ -1,7 +1,7 @@
 "use client"
 import { Parisienne } from "next/font/google";
 import Link from "next/link";
-import "@/app/assets/styles/logo.scss";
+import "@/assets/styles/logo.scss";
 
 type Props = {
   titleColor: string;
